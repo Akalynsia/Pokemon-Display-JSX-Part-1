@@ -1,0 +1,21 @@
+.pokemon-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pokemon-card + .pokemon-card {
+  margin-left: 10px;
+}
+
+.pokemon-card a {
+  display: flex;
+  justify-content: center;
+}
